@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <div class="Header">
+    <h3>Halloween Special</h3>
+    </div>  
+    <nav>
+      <div class="Navbar__button" id="Navbar__button">
+        <a href="/Information">
+          <button>More Information</button>
+        </a>
+      </div>
+    </nav>
+  </head>
+  <body background="/Important/Site-Background.jpg" >
+    <div class="Crow">
+      <img src="/Important/Crows.png" alt="">
+    </div>
+    <div class="CrowSecond">
+      <img id="SecondCrow" src="/Important/Crows.png" alt="">
+    </div>
+    <div class="BGround">
+    <div class="Stuff__Main">
+      <img class="Hallow" src="/Important/CircleHalloween.png" alt="" />  
+      <model-viewer
+        src="/Important/Ghost.gltf" -  Map met 3D Model
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        camera-controls
+        poster="poster.webp"
+        shadow-intensity="1"
+        auto-rotate
+        autoplay
+      >
+    </div>
+    <div class="info">
+      <div class="infomenu">
+        <p class="Holi">Halloween is a world wide holiday (well not a holiday like Christmas) but it is a day you are free from your job.</p>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

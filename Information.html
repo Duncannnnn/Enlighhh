@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More Information</title>
+    <link rel="stylesheet" href="styleinfo.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <a href="/" class="Back__btn">
+      <button>Go Back To Main</button>
+    </a>
+    <div class="Header">
+    <h3>Halloween Special</h3>
+    </div>
+  </head>
+  <body background="/Important/Site-Background-2.jpg">
+    <div class="Circle">
+      <img src="/Important/CircleHalloween.png" alt="" />
+    </div>
+    <div class="Main__stuff">
+      <model-viewer
+        src="/Important/pumpkin.glb" -  Map met 3D Model
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        camera-controls
+        poster="poster.webp"
+        shadow-intensity="1"
+        auto-rotate
+        autoplay
+      >
+    </div>
+    <div class="walltext">
+      <p>Christian minister Prince Sorie Conteh linked the wearing of costumes to the belief in vengeful ghosts: "It was traditionally believed that the souls of the departed wandered the earth until All Saints' Day, and All Hallows' Eve provided one last chance for the dead to gain vengeance on their enemies before moving to the next world. In order to avoid being recognized by any soul that might be seeking such vengeance, people would don masks or costumes".</p>
+    </div>
+  </body>
+</html>

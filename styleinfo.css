@@ -1,0 +1,80 @@
+* {
+  background-size: 100%;
+}
+
+@font-face {
+  font-family: Ghost;
+  src: url("/Fonts/Ghostphobia.ttf");
+}
+
+.Header h3 {
+  font-family: Ghost;
+  color: #fff;
+  float: left;
+  position: relative;
+  top: -15px;
+  left: 30px;
+}
+
+.walltext {
+  height: 200px;
+  width: 270px;
+  position: relative;
+  top: 130px;
+  left: 480px;
+  transform: rotate(-1.8deg);
+}
+
+.walltext p {
+  color: #fff;
+  font: Arial;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.Back__btn button {
+  color: #fff;
+  float: right;
+  border: none;
+  background-color: rgb(0, 128, 214);
+  border-radius: 5px;
+  height: 36px;
+  width: 150px;
+  font: Arial;
+  font-size: 14px;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  align-items: right;
+  justify-content: right;
+}
+
+.Back__btn:hover button {
+  background-color: rgb(53, 156, 225);
+}
+
+.Back__btn:active button {
+  background-color: rgb(103, 187, 244);
+}
+
+.Circle img {
+  left: 220px;
+  top: 17px;
+  position: absolute;
+  height: 410px;
+  width: 445px;
+}
+
+.Main__stuff {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.Main__stuff model-viewer {
+  top: 40px;
+  left: 310px;
+  position: relative;
+  height: 250px;
+  width: 250px;
+}

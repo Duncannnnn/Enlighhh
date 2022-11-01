@@ -1,0 +1,136 @@
+* {
+  background-size: 100%;
+}
+
+@font-face {
+  font-family: Ghost;
+  src: url("/Fonts/Ghostphobia.ttf");
+}
+
+.Header h3 {
+  font-family: Ghost;
+  color: #fff;
+  float: left;
+  position: relative;
+  top: -15px;
+  left: 30px;
+}
+
+.Crow img {
+  width: 100px;
+  height: 100px;
+  transform: rotate(40deg);
+}
+
+.Crow {
+  float: right;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  top: 45px;
+  right: 200px;
+}
+
+.CrowSecond img {
+  width: 50px;
+  height: 50px;
+  transform: rotate(-40deg);
+}
+
+.CrowSecond {
+  top: 120px;
+  left: 850px;
+  float: right;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Navbar__button {
+  background-color: rgb(103, 187, 244);
+}
+
+.Navbar__button a {
+  float: right;
+}
+
+.Navbar__button button {
+  color: #fff;
+  border: none;
+  background-color: rgb(0, 128, 214);
+  border-radius: 5px;
+  height: 36px;
+  width: 150px;
+  font: Arial;
+  font-size: 14px;
+  font-weight: lighter;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  align-items: right;
+  justify-content: right;
+}
+
+.Navbar__button button:hover {
+  background-color: rgb(53, 156, 225);
+}
+
+.Navbar__button button:active {
+  background-color: rgb(103, 187, 244);
+}
+
+.Stuff__Main img {
+  position: static;
+  margin-top: 135px;
+  width: 500px;
+  height: 500px;
+  justify-content: right;
+  align-items: right;
+  float: right;
+  margin-right: -68px;
+}
+
+.Stuff__Main model-viewer {
+  margin-top: 270px;
+  width: 200px;
+  height: 200px;
+  float: right;
+  justify-content: right;
+  align-items: right;
+  margin-right: -310px;
+}
+
+.infomenu {
+  position: relative;
+  top: 170px;
+  /* margin-top: 50px; */
+  margin-left: 70px;
+  height: 200px;
+  width: 300px;
+  background-color: #fff;
+  opacity: 0.4;
+  border-radius: 10px;
+  transform: rotate 0.5;
+}
+
+.infomenu:hover {
+  transform: rotate(2.3deg);
+}
+
+.infomenu p {
+  top: 0px;
+  line-height: 40px;
+  position: absolute;
+  color: rgb(0, 59, 136);
+  opacity: 1;
+  font: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
